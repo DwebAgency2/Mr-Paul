@@ -718,26 +718,21 @@ header.sticky {
   }
 
   .testimonial-box-container {
-    
     width: auto;
   }
 
+  .box-top {
+    padding: 1.4rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 
+  .profile {
+    padding-bottom: 1rem;
+  }
 
-.box-top {
-  padding: 1.4rem;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  
-}
-
-.profile {
-  padding-bottom: 1rem;
-}
-
-
-.testimonial-heading {
+  .testimonial-heading {
     text-align: center;
     font-size: 10px;
   }
@@ -756,7 +751,7 @@ header.sticky {
     width: auto;
   }
 
-  .client-comment p{
+  .client-comment p {
     width: 100%;
     justify-content: flex-start;
     line-height: 25px;
@@ -815,6 +810,46 @@ header.sticky {
   button.btn {
     display: none;
   }
+
+  .testimonial-box-container {
+    width: auto;
+  }
+
+  .box-top {
+    padding: 1.4rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .profile {
+    padding-bottom: 1rem;
+  }
+
+  .testimonial-heading {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .testimonial-heading h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .testimonial-box-container {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .testimonial-box {
+    width: auto;
+  }
+
+  .client-comment p {
+    width: 100%;
+    justify-content: flex-start;
+    line-height: 25px;
+  }
 }
 
 @media (max-width: 920px) {
@@ -847,7 +882,48 @@ header.sticky {
   .contact {
     grid-template-columns: 1fr;
   }
+
+  .testimonial-box-container {
+    width: auto;
+  }
+
+  .box-top {
+    padding: 1.4rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .profile {
+    padding-bottom: 1rem;
+  }
+
+  .testimonial-heading {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .testimonial-heading h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .testimonial-box-container {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .testimonial-box {
+    width: auto;
+  }
+
+  .client-comment p {
+    width: 100%;
+    justify-content: flex-start;
+    line-height: 25px;
+  }
 }
+
 
 @media (max-width: 1100px) {
   :root {
