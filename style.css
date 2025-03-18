@@ -777,6 +777,12 @@ header.sticky {
 }
 
 @media (max-width: 840px) {
+  .logo {
+    font-size: 1rem;
+    flex-wrap: nowrap;
+  }
+
+
   #menu-icon {
     display: block;
   }
@@ -860,6 +866,12 @@ header.sticky {
 }
 
 @media (max-width: 920px) {
+  .logo {
+    font-size: 1rem;
+    flex-wrap: nowrap;
+  }
+
+  
   .navlist {
     position: absolute;
     top: 0%;
