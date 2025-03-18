@@ -28,6 +28,7 @@ section {
 body,
 html{
   overflow-x: hidden;
+  width: 100%;
 }
 
 
@@ -666,6 +667,7 @@ header.sticky {
   .logo {
     font-size: 1rem;
     flex-wrap: nowrap;
+    background: var(--text-color);
   }
 
   #menu-icon {
@@ -679,7 +681,7 @@ header.sticky {
   .navlist {
     position: absolute;
     top: 0%;
-    right: -100%;
+    right: -50%;
     width: 50%;
     min-height: 100vh;
     display: flex;
