@@ -25,9 +25,11 @@ section {
   padding: 16px 15% 120px;
 }
 
-body{
+body,
+html{
   overflow-x: hidden;
 }
+
 
 
 header {
