@@ -721,6 +721,7 @@ header.sticky {
     width: auto;
     padding: 2rem;
     
+  }
 
   .box-top {
     padding: 1.4rem;
@@ -730,7 +731,7 @@ header.sticky {
     
     margin: 1rem;
   }
-  }
+  
 
   .profile {
     padding-bottom: 1rem;
@@ -759,7 +760,7 @@ header.sticky {
     width: 90%;
     justify-content: flex-start;
     line-height: 25px;
-    margin: 1rem;
+    margin: 1.3rem;
   }
 
   .contact-text {
@@ -858,10 +859,10 @@ header.sticky {
   }
 
   .client-comment p {
-    width: 100%;
+    width: 90%;
     justify-content: flex-start;
     line-height: 25px;
-    margin: 1rem;
+    margin: 1.3rem;
   }
 }
 
@@ -871,7 +872,7 @@ header.sticky {
     flex-wrap: nowrap;
   }
 
-  
+
   .navlist {
     position: absolute;
     top: 0%;
@@ -938,10 +939,10 @@ header.sticky {
   }
 
   .client-comment p {
-    width: 100%;
+    width: 90%;
     justify-content: flex-start;
     line-height: 25px;
-    margin: 1rem;
+    margin: 1.3rem;
   }
 }
 
