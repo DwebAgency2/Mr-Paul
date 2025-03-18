@@ -267,6 +267,7 @@ header.sticky {
   overflow: hidden;
   border-radius: 8px;
   cursor: pointer;
+  
 }
 
 .row img {
@@ -307,6 +308,7 @@ header.sticky {
 .layer i {
   color: var(--main-color);
   margin-top: 20px;
+  margin-bottom: 25px;
   font-size: 20px;
   background: var(--text-color);
   width: 60px;
