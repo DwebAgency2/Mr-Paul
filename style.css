@@ -6,6 +6,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   color: #fff;
+  overflow-x: hidden;
 }
 
 :root {
@@ -24,13 +25,10 @@ section {
   padding: 16px 15% 120px;
 }
 
-body{
-  overflow-x: hidden;
-}
+
 
 header {
   position: fixed;
-
   width: 100%;
   top: 0;
   right: 0;
@@ -40,7 +38,7 @@ header {
   justify-content: space-between;
   padding: 22px 15%;
   background: transparent;
-
+ 
   transition: all 0.45s ease;
 }
 
